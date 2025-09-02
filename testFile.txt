@@ -1,8 +1,10 @@
-Hello this is the SSH test connection
+### GUIDA GIT & GITHUB ###
 
 - Per iniziare si usa git init -> questo crea una cartella nascosta .git nella directory
 
 - git status -> serve per vedere lo status di git
+
+- git add -> per far trackare il file da git usando un . si dice che tutti i file non tracciati devono essere tracciati da github
 
 - git commit -am "Messaggio di commit" -> con questo comando si fa un commit e con -a si vuol dire di aggiungere il file e -m per il messaggio
 

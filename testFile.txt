@@ -1,4 +1,26 @@
-Hello this is the SSH test connection
+### GUIDA GIT & GITHUB ###
 
-This is test file for sample download. 
-And this is another commit for local machine.
+- Per iniziare si usa git init -> questo crea una cartella nascosta .git nella directory
+
+- git status -> serve per vedere lo status di git
+
+- git add -> per far trackare il file da git usando un . si dice che tutti i file non tracciati devono essere tracciati da github
+
+- git commit -am "Messaggio di commit" -> con questo comando si fa un commit e con -a si vuol dire di aggiungere il file e -m per il messaggio
+
+
+### GITHUB ###
+git push -> per inviare il codice a github
+
+git pull -> per prendere il codice da github
+
+Per fare la connessione a Github usiamo git clone -b main "Https del github"
+
+Usiamo ssh per evitare ogni volta di inserire la password per fare un pull o un push su github
+
+### BRANCH ###
+git branch "nome Branch" -> per creare branch
+
+git branch -> per vedere quanti branch ci sono
+
+git switch *inserire nome branch che si vuole switchare senza virgolette*

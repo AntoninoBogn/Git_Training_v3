@@ -18,9 +18,26 @@ Per fare la connessione a Github usiamo git clone -b main "Https del github"
 
 Usiamo ssh per evitare ogni volta di inserire la password per fare un pull o un push su github
 
+
 ### BRANCH ###
 git branch "nome Branch" -> per creare branch
 
 git branch -> per vedere quanti branch ci sono
 
 git switch *inserire nome branch che si vuole switchare senza virgolette*
+
+git pull origin *nome del branch -> fa un pull del main branch nel second branch
+
+### MERGE ###
+
+git merge *nome branch che si vuole unire
+
+### RIPRISTINARE LO STATO PRECEDENTE ###
+
+Abbiamo due comandi in git per farlo , RESET e REVERT
+
+RESET -> Praticamente facciamo un rollback, con reset si ritorno al commit precedente 
+
+REVERT -> E' simile a reverse ma ha un approccio diverso, in reset cancelli completamente il tuo ultimo commit, revert aggiunge un nuovo commit alla fine della catena che annulla il commit precedente ma non viene cancellato, usiamo questo quando abbiamo gia pushato su github , reset invece quando siamo ancora in locale
+
+
